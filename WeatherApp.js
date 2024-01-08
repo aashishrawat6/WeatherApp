@@ -79,7 +79,7 @@ async function findLocation(name) {
     //   <h3 class="cloudtxt">${result.message}</h3>`;
     //   iconsContainer.insertAdjacentHTML("afterbegin", message);
 
-    const oopsImage = '<img src="404.png" alt="Oops Error Image" />';
+    const oopsImage = '<img src="/404.png" alt="Oops Error Image" />';
     iconsContainer.innerHTML = oopsImage;
     iconsContainer.classList.add("fadeIn");
     }
